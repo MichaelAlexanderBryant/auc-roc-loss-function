@@ -3,7 +3,7 @@ import tensorflow as tf
 def ApproximateWilcoxonMannWhitneyStatistic(y_true, y_pred):
     
     """Computes an approximation of the normalized Wilcoxon-Mann-Whitney (WMW)
-    statistic with labels and predictions.
+    statistic using labels and predictions.
     
     The normalized WMW statistic can be shown to be equal the AUC-ROC. However,
     it is a step function so it is not differentiable. The normalized WCW
