@@ -5,7 +5,7 @@ def ApproximateWilcoxonMannWhitneyStatistic(y_true, y_pred):
     """Computes an approximation of the normalized Wilcoxon-Mann-Whitney (WMW)
     statistic using labels and predictions.
     
-    The normalized WMW statistic can be shown to be equal the AUC-ROC. However,
+    The normalized WMW statistic can be shown to be equal to the AUC-ROC. However,
     it is a step function so it is not differentiable. The normalized WCW
     statistic can be approximated with a smooth, differentiable function
     which makes the approximated version an ideal loss function for optimizing
