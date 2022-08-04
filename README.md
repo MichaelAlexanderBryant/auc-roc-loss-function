@@ -1,6 +1,6 @@
 # auc-roc-loss-function
 
-This repo contains a TensorFlow loss function that computes an approximation of the normalized Wilcoxon-Mann-Whitney (WMW) statistic using labels and predictions.
+A TensorFlow loss function that computes an approximation of the normalized Wilcoxon-Mann-Whitney (WMW) statistic using labels and predictions.
  
 The normalized WMW statistic can be shown to be equal to the AUC-ROC. However, it is a step function so it is not differentiable. The normalized WCW statistic can be approximated with a smooth, differentiable function which makes the approximated version a near ideal loss function for optimizing the AUC-ROC metric.
     
