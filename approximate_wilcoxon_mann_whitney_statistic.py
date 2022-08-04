@@ -8,7 +8,7 @@ def ApproximateWilcoxonMannWhitneyStatistic(y_true, y_pred):
     The normalized WMW statistic can be shown to be equal to the AUC-ROC. However,
     it is a step function so it is not differentiable. The normalized WCW
     statistic can be approximated with a smooth, differentiable function
-    which makes the approximated version close to an ideal loss function for optimizing
+    which makes the approximated version a near ideal loss function for optimizing
     the AUC-ROC metric.
     
     The loss function has two parameters, gamma and p, which are recommended
