@@ -2,7 +2,7 @@
 
 A TensorFlow loss function that computes an approximation of the normalized Wilcoxon-Mann-Whitney (WMW) statistic using labels and predictions.
  
-The normalized WMW statistic can be shown to be equal to the AUC-ROC. However, it is a step function so it is not differentiable. The normalized WCW statistic can be approximated with a smooth, differentiable function which makes the approximated version a near ideal loss function for optimizing the AUC-ROC metric.
+The normalized WMW statistic can be shown to be equal to the AUC-ROC. However, it is a step function so it is not differentiable. The normalized WCW statistic can be approximated with a smooth, differentiable function which makes the approximated version a near ideal loss function for optimizing for the AUC-ROC metric.
     
 The loss function has two parameters, gamma and p, which are recommended to be kept between 0.1 to 0.7 and at 2 or 3, respectively.
     
