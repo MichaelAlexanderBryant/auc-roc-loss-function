@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-def ApproximateWilcoxonMannWhitneyStatistic(gamma=0.4, p=2):
+def ApproximateWMWStatistic(gamma=0.4, p=2):
     
     """Computes a loss function based on the approximation of the normalized
     Wilcoxon-Mann-Whitney (WMW) statistic.
