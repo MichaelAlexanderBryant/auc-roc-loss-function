@@ -2,7 +2,7 @@ import tensorflow as tf
 
 def WMWStatistic(gamma=0.4, p=2):
     
-    """Computes a loss function based on the approximation of the normalized
+    """Computes a loss function based on an approximation of the normalized
     Wilcoxon-Mann-Whitney (WMW) statistic.
 
     The normalized WMW statistic can be shown to be equal the AUC-ROC. However,
