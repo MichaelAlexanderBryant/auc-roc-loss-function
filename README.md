@@ -1,6 +1,6 @@
 # auc-roc-loss-function
 
-A TensorFlow loss function based on an approximation of the normalized Wilcoxon-Mann-Whitney (WMW) statistic.
+A TensorFlow loss function for binary classification based on an approximation of the normalized Wilcoxon-Mann-Whitney (WMW) statistic.
  
 The normalized WMW statistic can be shown to be equal to the AUC-ROC. However, it is a step function so it is not differentiable. The normalized WCW statistic can be approximated with a smooth, differentiable function which makes the approximated version a near ideal loss function for optimizing for the AUC-ROC metric.
     
