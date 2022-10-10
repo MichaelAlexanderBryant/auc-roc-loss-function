@@ -8,5 +8,3 @@ The loss function has two parameters, gamma and p, which are recommended to be k
     
 For more information:
 Optimizing Classifier Performance via an Approximation to the Wilcoxon-Mann-Whitney Statistic. Yan, Lian and Dodier, Robert H. and Mozer, Michael and Wolniewicz, Richard H. International Conference on Machine Learning (2003). [Link](https://www.aaai.org/Papers/ICML/2003/ICML03-110.pdf)
-
-[Click here to see an example using this loss function.](https://github.com/MichaelABryant/tps-aug-2022/blob/main/logistic-regression-with-custom-loss-function.ipynb)
